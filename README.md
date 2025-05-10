@@ -6,7 +6,7 @@ A minimal set of configuration files for React projects using:
     - `postcss-import`
     - `postcss-simple-vars`
     - `@tailwindcss/nesting`
-    - **Tailwind’s PostCSS plugin**
+    - `@tailwindcss/postcss`
     - `autoprefixer`
 - **CSS-Modules** support via `.module.pcss`
 - **Class Variance Authority (CVA)**
