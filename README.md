@@ -74,11 +74,11 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 Create a global declaration file In your project root, add a file at `types/global.d.ts` (or any path you prefer):
 ```ts
-   // types/global.d.ts
-   declare module '*.module.pcss' {
-     const classes: { [key: string]: string };
-     export default classes;
-   }
+// types/global.d.ts
+declare module '*.module.pcss' {
+  const classes: { [key: string]: string };
+  export default classes;
+}
 ```
 
 And include it in your tsconfig.json
